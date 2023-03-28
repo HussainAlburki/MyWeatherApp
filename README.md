@@ -54,16 +54,20 @@ The plugins directory contains JavaScript plugins that you want to run before in
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/plugins).
 
-### `static`
 
-This directory contains your static files. Each file inside this directory is mapped to `/`.
 
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
+/* More instructions on how to run the project locally */
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/static).
+First step download the code locally from the repostory 
+open terminal to run the app
+![Terminal](https://user-images.githubusercontent.com/88009192/228385548-d48bcdbd-7ad3-4c7d-bd09-b66975f25beb.png)
+step two use the command line npm run dev in  your terminal to run the app 
+![image](https://user-images.githubusercontent.com/88009192/228385817-31b802d8-d4d9-473a-b629-f20a1d24699f.png)
+you will get the link as  http://localhost:3000/ just click on it or copy it and paste it in any browser.
 
-### `store`
+You will see the page with simple design that has the search bar and a button to search for any city in order to check the weather. I retrived data from OpenWeather, I am using API key, but it is not valid for a long time. Here are some photos to check 
+![image](https://user-images.githubusercontent.com/88009192/228387754-4cef19b2-358f-488b-81e3-f16b70e4e4b2.png)
+![image](https://user-images.githubusercontent.com/88009192/228387830-7918cdca-6942-4b8a-95c6-8dc8aa819cfe.png)
 
-This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+
